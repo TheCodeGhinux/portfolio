@@ -1,0 +1,30 @@
+Coded using HTML, CSS, and JavaScript to develop features for both 
+mobile and desktop platforms.
+• Produced websites compatible with multiple browsers.
+• Coordinated with the digital content manager to obtain content for updates 
+and expansions.
+• Performed user experience quality assurance testing to identify and remedy 
+shortcomings and advised internal users on web service capabilities, 
+principles and protocols.
+• Teamed on user-centric design strategy in the translation of UX and 
+business requirements into coded solutions.
+
+
+
+
+
+Collaborated effectively with members of software development team to 
+develop processes to automate the task and increase work efficiency
+•Remained au courant with developments related to Python frameworks
+and libraries. 
+Proficiency in Data analysis with Machine learning library.
+Built machine learning models for Data analysis with Numpy, Pandas, Tensorflow, and other libraries
+•
+• Modified existing Python software to correct coding errors, upgrade 
+interfaces and improve overall performance.
+• Worked independently to design, develop and test code.
+• Translated verbal customer requirements into written use cases and 
+testable development stories.
+• Handled scripting tasks for debugging and automation using Python.
+• Designed customer-facing front end for Neus Apparels websites relying 
+heavily on data-driven back-end processing.
