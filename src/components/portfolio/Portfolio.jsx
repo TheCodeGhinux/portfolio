@@ -5,50 +5,56 @@ import IMG2 from'../../assets/portfolio2.jpg'
 import IMG3 from'../../assets/scraper.png'
 import IMG4 from'../../assets/watermark.jfif'
 import IMG5 from'../../assets/store.png'
-import IMG6 from'../../assets/twitter.webp'
+import IMG6 from'../../assets/twitter.png'
 
 const data = [
   {
     id: 1,
     image:IMG1,
     title: 'Stock price Prediction',
-    github: 'https://github.com/thecodeghinux/stock-price-analysis',
-    demo: 'https://github.com/thecodeghinux',
+    desc: 'A machine learning model for predicting stock prices',
+    github: 'https://github.com/thecodeghinux/stock-price-prediction',
+    demo: 'https://github.com/thecodeghinux/stock-price-prediction',
   },
   {
     id: 2,
     image:IMG2,
     title: 'Web3 Landing Page',
+    desc: 'A Web3 landing page built with ReactJs',
     github: 'https://github.com/thecodeghinux/web3-landing-page',
-    demo: 'https://github.com/thecodeghinux',
+    demo: 'https://tcg-web3.netlify.app/',
   },
   {
     id: 3,
     image:IMG3,
     title: 'Web Scraper',
+    desc: 'A python script for scraping data from websites',
     github: 'https://github.com/thecodeghinux/web-scraper',
-    demo: 'https://github.com/thecodeghinux',
+    demo: 'https://github.com/thecodeghinux/web-scraper',
   },
   {
     id: 4,
     image:IMG4,
     title: 'Image Watermarking GUI',
-    github: 'https://github.com/thecodeghinux/image-watermark-gui',
-    demo: 'https://github.com/thecodeghinux',
+    desc: 'A python preogram to watermark images',
+    github: 'https://github.com/thecodeghinux/watermark-app',
+    demo: 'https://github.com/thecodeghinux/watermark-app',
   },
   {
     id: 5,
     image:IMG5,
     title: 'Gadget Store Website',
-    github: 'https://github.com/thecodeghinux/tcg-website',
-    demo: 'https://github.com/thecodeghinux',
+    desc: 'A Gadget store website built with NextJs and Sanity for CMS',
+    github: 'https://github.com/thecodeghinux/tcg-store',
+    demo: 'https://tcgstore.netlify.app/',
   },
   {
     id: 6,
     image:IMG6,
     title: 'Twitter Bot',
+    desc: 'A twitter bot for retweeting and liking tweets with certain hastags',
     github: 'https://github.com/thecodeghinux/twitter-bot',
-    demo: 'https://github.com/thecodeghinux',
+    demo: 'https://github.com/thecodeghinux/twitter-bot',
   },
 ]
 
@@ -60,13 +66,16 @@ const Portfolio = () => {
 
       <div className="container portfolio-container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, desc, github, demo}) => {
             return (
               <article key={id} className="portfolio-item">
-              <div className="portfolio-item-image">
+                <div className="portfolio-item-image">
                   <img src={image} alt={title} />
                 </div>
+               <div className="portfolio-text">
                 <h3>{title}</h3>
+                <h5 className="desc" >{desc}</h5>
+               </div>
                 <div className="portfolio-item-cta">
                   <a href={github} className="btn">Github</a>
                   <a href={demo} className="btn btn-primary">Live Demo</a>

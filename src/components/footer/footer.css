@@ -44,7 +44,7 @@ footer a {
 
 .footer-socials a:hover {
     background: transparent;
-    color: var(--color-bg);
+    color: var(--color-orange);
     border-color: var(--color-bg);
 
 }
@@ -95,6 +95,6 @@ span {
     }
 
     .footer-copyright {
-        margin-bottom: 4rem;
+        margin-bottom: 4.5rem;
     }
 }

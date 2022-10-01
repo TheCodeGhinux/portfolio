@@ -23,14 +23,14 @@ const Contact = () => {
             <FaTwitter className='contact-opiton-icon' />
             <h4>Twiter</h4>
             {/* <h5>AyoOfLagos</h5> */}
-            <a href="https://twitter.com/ayooflagos" target= "_blank" rel="noreferrer">Send a message</a>
+            <a href="https://twitter.com/codeghinux" target= "_blank" rel="noreferrer">Send a message</a>
           </article>
 
           <article className="contact-option">
             <FaWhatsapp className='contact-opiton-icon' />
             <h4>Whatsapp</h4>
             {/* <h5>+234</h5> */}
-            <a href="https://api.whatsapp.com/send?phone+2348140273725" target= "_blank" rel="noreferrer">Send a message</a>
+            <a href="https://wa.me/2348140273725" target= "_blank" rel="noreferrer">Send a message</a>
           </article>
 
         </div>
